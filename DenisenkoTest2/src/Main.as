@@ -40,7 +40,7 @@ package
 		}
 		
 		/**
-		 * Подсчитать колечество слов
+		 * Подсчитать количество слов
 		 */
 		private function countWords(words:Array):void
 		{
