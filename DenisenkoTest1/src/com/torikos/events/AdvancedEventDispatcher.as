@@ -1,15 +1,14 @@
 package com.torikos.events
 {
-	import com.torikos.interfaces.IDisposable;
+	import com.torikos.events.interfaces.IAdvancedEventDispatcher;
 	
 	import flash.events.EventDispatcher;
 	import flash.events.IEventDispatcher;
-	import com.torikos.events.interfaces.IAdvancedEventDispatcher;
 	
 	/**
 	 * Расширенный EventDispatcher
 	 */
-	public class AdvancedEventDispatcher extends EventDispatcher implements IAdvancedEventDispatcher, IDisposable
+	public class AdvancedEventDispatcher extends EventDispatcher implements IAdvancedEventDispatcher
 	{
 		/**
 		 * Контроллер подписок на события
