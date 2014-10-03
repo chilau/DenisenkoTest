@@ -38,7 +38,7 @@ package com.torikos.controller
 			_childs.push(container);
 			
 			container.addEventListener(DraggableGUIComponentEvent.CLICK, onChildClick);
-			container.model.z = Number.MAX_VALUE;
+			container.model.z = int.MAX_VALUE;
 			sortObjectByZPosition();
 		}
 		
